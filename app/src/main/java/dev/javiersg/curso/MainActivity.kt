@@ -33,5 +33,52 @@ class MainActivity : AppCompatActivity() {
 
         println(saludo);
 
+
+        // Operadores
+
+        var a:Int = 5 + 5 // suma
+        var b:Int = 5 - 5 // resta
+        var c:Int = 5 * 5 // multiplicacion
+        var d:Int = 5 / 5 // division
+        var e:Int = 5 % 5 // modulo
+        var f:Int = 10 / 6 // division infinita
+
+        var aProIncremento:Int = 5
+        var bProDecremento:Int = 5
+        var cProIncremento:Int = 5
+        var dProDecremento:Int = 5
+
+        println(aProIncremento)
+        println(++aProIncremento) // Primero incrementa, luego regresa. Salida: 6
+        println(aProIncremento)
+
+        println(bProDecremento)
+        println(--bProDecremento) // Primero decrementa, luego regresa. Salida: 6
+        println(bProDecremento)
+
+        println(cProIncremento)
+        println(cProIncremento++) // Primero regresa, luego increemta. Salida: 6
+        println(cProIncremento)
+
+        println(dProDecremento)
+        println(dProDecremento--) // Primero regresa, luego decrementa. Salida: 5
+        println(dProDecremento)
+
+
+        // Comentario
+
+        /*
+        * Comentario de varias lineas
+        * */
+
+        // Operadores de comparacion
+        var r = true
+
+        println(a == b); // igual igual
+        println(a != b) // diferente de
+        println(a > b) // mayor que
+        println(a < b) // menor que
+        println(a >= b) // mayor igual que
+        println(a <= b) // menor igual que
     }
 }
